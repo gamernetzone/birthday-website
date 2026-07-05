@@ -1,0 +1,60 @@
+.letter{
+  margin:80px auto;
+  text-align:center;
+}
+
+.letter h2{
+  color:white;
+  font-size:38px;
+  margin-bottom:30px;
+}
+
+.envelope{
+  width:260px;
+  margin:auto;
+  cursor:pointer;
+}
+
+.envelope-body{
+  width:260px;
+  height:170px;
+  background:white;
+  border-radius:0 0 12px 12px;
+  position:relative;
+}
+
+.envelope-flap{
+  width:0;
+  height:0;
+  border-left:130px solid transparent;
+  border-right:130px solid transparent;
+  border-bottom:90px solid #ffd6e8;
+}
+
+.envelope p{
+  color:white;
+  margin-top:20px;
+  font-weight:bold;
+}
+
+.letter-card{
+  max-width:700px;
+  margin:auto;
+  padding:35px;
+
+  background:rgba(255,255,255,.15);
+
+  backdrop-filter:blur(15px);
+
+  border-radius:25px;
+
+  color:white;
+
+  line-height:2;
+
+  font-size:20px;
+
+  border:1px solid rgba(255,255,255,.25);
+
+  box-shadow:0 15px 35px rgba(0,0,0,.2);
+}

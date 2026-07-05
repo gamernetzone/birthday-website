@@ -1,0 +1,80 @@
+.gift-container{
+  margin-top:40px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.gift-box{
+  width:140px;
+  height:140px;
+  position:relative;
+  cursor:pointer;
+  animation:giftFloat 2.5s ease-in-out infinite;
+}
+
+.gift-body{
+  position:absolute;
+  bottom:0;
+  width:140px;
+  height:100px;
+  background:#ff4f81;
+  border-radius:0 0 15px 15px;
+}
+
+.gift-lid{
+  position:absolute;
+  top:0;
+  width:140px;
+  height:35px;
+  background:#ff6fa5;
+  border-radius:15px 15px 0 0;
+}
+
+.gift-ribbon-v{
+  position:absolute;
+  left:60px;
+  top:0;
+  width:20px;
+  height:140px;
+  background:white;
+}
+
+.gift-ribbon-h{
+  position:absolute;
+  top:25px;
+  width:140px;
+  height:18px;
+  background:white;
+}
+
+.gift-box:hover{
+  transform:scale(1.08) rotate(-3deg);
+  transition:.3s;
+}
+
+.gift-box.opened .gift-lid{
+  transform:translateY(-30px) rotate(-15deg);
+  transition:.6s;
+}
+
+.gift-box.opened .gift-body{
+  transform:scale(1.05);
+  transition:.6s;
+}
+
+.gift-container p{
+  margin-top:15px;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
+}
+
+@keyframes giftFloat{
+  0%,100%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-10px);
+  }
+}
