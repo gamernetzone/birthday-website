@@ -63,7 +63,7 @@ function Hero() {
         )}
 
        <Countdown />
-{/* <MusicPlayer /> */}
+<MusicPlayer />
 <Gallery />
 <Letter />
 <Cake />
