@@ -68,6 +68,20 @@ function Hero() {
 <Letter />
 <Cake />
 <Timeline />
+<div className="instagram-section">
+  <h2>💖 Made Especially For</h2>
+
+  <a
+    href="https://instagram.com/sakshamyadvv_"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="insta-link"
+  >
+    📷 @sakshamyadvv_
+  </a>
+
+  <p>Happy Birthday Once Again! 🎂✨</p>
+</div>
       </div>
     </motion.section>
   );

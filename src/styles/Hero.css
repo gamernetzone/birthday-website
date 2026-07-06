@@ -140,4 +140,38 @@
   .cursor-glow{
     display:none;
   }
+}.instagram-section{
+    margin-top:60px;
+    padding:25px;
+    border-radius:20px;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(10px);
+    text-align:center;
+    box-shadow:0 0 25px rgba(255,255,255,.15);
+}
+
+.instagram-section h2{
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.insta-link{
+    display:inline-block;
+    margin:15px 0;
+    font-size:22px;
+    font-weight:700;
+    color:#ffd54f;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.insta-link:hover{
+    transform:scale(1.08);
+    color:#fff;
+    text-shadow:0 0 15px #ffd54f;
+}
+
+.instagram-section p{
+    color:#fff;
+    font-size:18px;
 }
